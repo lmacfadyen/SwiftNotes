@@ -6,21 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		11B1BE631C186B07004A7825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1BE621C186B07004A7825 /* AppDelegate.swift */; };
-		11B1BE651C186B07004A7825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1BE641C186B07004A7825 /* ViewController.swift */; };
-		11B1BE681C186B07004A7825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B1BE661C186B07004A7825 /* Main.storyboard */; };
-		11B1BE6A1C186B07004A7825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B1BE691C186B07004A7825 /* Assets.xcassets */; };
-		11B1BE6D1C186B07004A7825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B1BE6B1C186B07004A7825 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		11B1BE5F1C186B07004A7825 /* SwiftNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11B1BE621C186B07004A7825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11B1BE641C186B07004A7825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11B1BE671C186B07004A7825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11B1BE691C186B07004A7825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11B1BE6C1C186B07004A7825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B1BE6E1C186B07004A7825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B1BE751C186B61004A7825 /* SwiftNotes-Guard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SwiftNotes-Guard.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,11 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				11B1BE741C186B52004A7825 /* Playgrounds */,
-				11B1BE621C186B07004A7825 /* AppDelegate.swift */,
-				11B1BE641C186B07004A7825 /* ViewController.swift */,
-				11B1BE661C186B07004A7825 /* Main.storyboard */,
-				11B1BE691C186B07004A7825 /* Assets.xcassets */,
-				11B1BE6B1C186B07004A7825 /* LaunchScreen.storyboard */,
 				11B1BE6E1C186B07004A7825 /* Info.plist */,
 			);
 			path = SwiftNotes;
@@ -132,9 +114,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B1BE6D1C186B07004A7825 /* LaunchScreen.storyboard in Resources */,
-				11B1BE6A1C186B07004A7825 /* Assets.xcassets in Resources */,
-				11B1BE681C186B07004A7825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,31 +124,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B1BE651C186B07004A7825 /* ViewController.swift in Sources */,
-				11B1BE631C186B07004A7825 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		11B1BE661C186B07004A7825 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11B1BE671C186B07004A7825 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		11B1BE6B1C186B07004A7825 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11B1BE6C1C186B07004A7825 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		11B1BE6F1C186B07004A7825 /* Debug */ = {
