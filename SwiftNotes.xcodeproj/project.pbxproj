@@ -22,6 +22,7 @@
 		11B1BE691C186B07004A7825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B1BE6C1C186B07004A7825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B1BE6E1C186B07004A7825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B1BE751C186B61004A7825 /* SwiftNotes-Guard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SwiftNotes-Guard.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		11B1BE611C186B07004A7825 /* SwiftNotes */ = {
 			isa = PBXGroup;
 			children = (
+				11B1BE741C186B52004A7825 /* Playgrounds */,
 				11B1BE621C186B07004A7825 /* AppDelegate.swift */,
 				11B1BE641C186B07004A7825 /* ViewController.swift */,
 				11B1BE661C186B07004A7825 /* Main.storyboard */,
@@ -62,6 +64,14 @@
 				11B1BE6E1C186B07004A7825 /* Info.plist */,
 			);
 			path = SwiftNotes;
+			sourceTree = "<group>";
+		};
+		11B1BE741C186B52004A7825 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				11B1BE751C186B61004A7825 /* SwiftNotes-Guard.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
