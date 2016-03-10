@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		114D82171C6A250300EE11EA /* SwiftNotes-Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SwiftNotes-Generics.playground"; sourceTree = "<group>"; };
+		117287131C91F81F0052527B /* Colors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Colors.playground; sourceTree = "<group>"; };
 		11B1BE5F1C186B07004A7825 /* SwiftNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B1BE6E1C186B07004A7825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B1BE751C186B61004A7825 /* SwiftNotes-Guard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SwiftNotes-Guard.playground"; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 			children = (
 				11B1BE751C186B61004A7825 /* SwiftNotes-Guard.playground */,
 				114D82171C6A250300EE11EA /* SwiftNotes-Generics.playground */,
+				117287131C91F81F0052527B /* Colors.playground */,
 			);
 			name = Playgrounds;
 			sourceTree = "<group>";
